@@ -39,7 +39,7 @@ config :phoenix, :stacktrace_depth, 20
 config :json_api, JsonApi.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "",
+  password: "postgres",
   database: "json_api_dev",
   hostname: "localhost",
   pool_size: 10
